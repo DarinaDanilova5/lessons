@@ -1,0 +1,41 @@
+@import url(reset.css);
+div{
+	color:red;
+}
+a{
+	color:yellow;
+}
+.text{
+	color:green;
+}	
+#list {
+	color:blue;
+}
+div.lesson{
+	color:purple;
+}
+.form.low{
+	color:lightgreen;
+}
+.min{
+	color:pink;
+}
+.name{
+color:pink;
+}
+.lang,
+.option{
+	color:darkcyan;
+}
+.link p{
+	color:darksalmon;
+}
+.iframe * {
+	color:cornflowerblue;
+}
+.block > p {
+	color:orange;
+}
+.base ~ p {
+	color:rgb(255, 106, 0);
+}
