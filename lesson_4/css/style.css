@@ -1,0 +1,104 @@
+@import url("reset.css");
+
+/* Goggle Fonts */
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap");
+body {
+	font-family: "Poppins";
+}  */
+
+/* Підключення вручну */
+/* 
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"),
+		 url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"),
+		 url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+*/
+.title {
+	font-family: serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	color: green;
+	text-align: center;
+	text-transform: capitalize;
+}
+.text {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: blueviolet;
+	text-align: left;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px #978;
+	text-transform: lowercase;
+	white-space: normal;
+}
+.block {
+	font-family: fantasy;
+	font-weight: 300;
+	color: blue;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.list {
+	font-family: monospace;
+	font-style: oblique;
+	font-size: 20px;
+	font-weight: 100;
+	color: chartreuse;
+	text-align: justify;
+	text-decoration: overline;
+	text-transform: none;
+}
+.lesson {
+	font-family: cursive;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	color: yellow;
+	text-align: center;
+	text-decoration: line-through;
+}
+.min {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-style: oblique;
+	font-weight: 600;
+	color: red;
+	text-decoration: none;
+	text-indent: 30px;
+	word-spacing: 20px;
+}
+.name {
+	font-size: 12px;
+	line-height: 1.7;
+	color: pink;
+}
+.lang {
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: orange;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
