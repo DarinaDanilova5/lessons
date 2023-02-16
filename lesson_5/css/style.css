@@ -1,0 +1,126 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6C757D;
+	font-size: 14px;
+	font-weight: 300;	
+}
+
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__text-block p {
+	line-height: 1,78;
+	margin-bottom: 30px;
+}
+.article__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+.article__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.article__image2 {
+	font-size: 0;
+	margin-bottom: 80px;
+}
+.article__image3 {
+margin-right: 30px;
+}
+
+.block-1 {
+	background-color: cornflowerblue;
+	color: yellow;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+.block-2 {
+	background-color: rgb(89, 131, 209);
+	color: blue;
+	margin: 40px 50px 40px 50px;
+}
+.block-3 {
+	background-color: lightblue;
+	color: palevioletred;
+	width: 500px;
+	
+}
+.block-4 {
+	background-color: pink;
+	color: grey;
+	min-width: 80px;
+}
+.block-5 {
+	background-color: palevioletred;
+	color: gray;
+	height: 100px;
+}
+.block-6 {
+	background-color: cornflowerblue;
+	color: yellow;
+	max-height: 150px;
+	overflow: scroll;
+
+}
+.inline-2 {
+	background-color: rgb(89, 131, 209);
+	color: blue;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+}
+.block-7 {
+	background-color: lightblue;
+	color: palevioletred;
+	width: 200px;
+	padding-left: 100px;
+}
+.block-8 {
+	background-color: pink;
+	color: grey;
+	max-height: 150px;
+	overflow: auto;
+}
+.inline-2 {
+	background-color: palevioletred;
+	color: gray;
+	display: block;
+	padding: 50px;	
+}
+.inline-block3 {
+	margin: 70px;
+	vertical-align: middle;
+}
+.inline-block2 {
+	margin-top: 100px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	max-width: 600%;	
+}
+.inline-block {
+min-height: 500%;
+}
